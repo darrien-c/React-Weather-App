@@ -1,4 +1,4 @@
-React Weather App
+## React Weather App
 
 ## Instructions
 First clone this repository.
