@@ -6,5 +6,5 @@ https://darrien-c.github.io/React-Weather-App/
 This is a simple Progressive React Weather app using OpenWeatherApi
 
 ## Technologies
-  React
+  React,
   Sass
