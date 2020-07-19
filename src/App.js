@@ -8,7 +8,7 @@ import './styles.scss';
 
 
 
-const URL = 'https://api.openweathermap.org/data/2.5/weather'; 
+const URL = 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather'; 
 const API_KEY = 'e07d6ec2285b805cff438c64609e3a00';
 
 const App = () => {
@@ -33,7 +33,7 @@ const App = () => {
     // fetch forecast data with one parameter with the name of the city that's being searched
     const fetchForecast = async ( query ) => {    
 
-        const forecast = `https://api.openweathermap.org/data/2.5/forecast?q=${query}&APPID=${API_KEY}&units=metric`; 
+        const forecast = `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/forecast?q=${query}&APPID=${API_KEY}&units=metric`; 
 
         // Get the response once a call is being made to forecast with the API   
         try {
