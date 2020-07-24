@@ -52,6 +52,7 @@ const WeatherForecast = ({forecasts, isLoading}) => {
       };
 
 
+      console.log(forecasts);
     return (
     isLoading ? <p></p> :
 
@@ -63,7 +64,7 @@ const WeatherForecast = ({forecasts, isLoading}) => {
                             <div key={i} className="forecast-card">  
                                 <p>{convertForecastDate(forecast.dt_txt)}</p> 
                                 <p>{convertForecastTime(forecast.dt_txt)}</p>                   
-                                <img src={`https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`}  alt={weather.weather[0].description}/>
+                                <img src={`https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`}  alt={forecast.weather[0].description}/>
                                 <p>{forecast.weather[0].description}</p>
                                 <p>{Math.round(forecast.main.temp)}<sup>&deg;C</sup></p>
                               
