@@ -3,8 +3,10 @@ https://darrien-c.github.io/React-Weather-App/
 
 
 ## Description
-This is a weather app using OpenWeatherApi
+Application written in ReactJS using OpenWeatherMap's Api. The app features:
+
+* Search by city
 
 ## Technologies
-  React,
-  Sass
+* Create-React-App
+* Sass
