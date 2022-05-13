@@ -79,7 +79,7 @@ const App = () => {
 
                 const data = await fetchForecast(query);  
                 const dailyData = await fetchWeather(query); 
-            
+                console.log(e);
                 // set the weather to be equal to the data that is received
                 setForecast(data.list);  
                 setWeather(dailyData);
@@ -95,6 +95,7 @@ const App = () => {
             }
         }      
 
+ 
 
     return (
         <div className="main-container">                  
